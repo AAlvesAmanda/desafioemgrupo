@@ -1,6 +1,8 @@
-/* * {
+* {
     font-family: 'Ubuntu', sans-serif;
+    viewport-fit: auto;
 }
+
 header {
     background-color: #2E948A;
     width: 1440px;
@@ -70,8 +72,49 @@ header #lista #cursos {
     color: #FDFDFD;
     text-decoration: none;
 }
+
 main {
     display: grid;
-    border: 15px; */
+    border: 15px;
+    position: relative;
+}
 
+main #Contato {
+    color: #FF4081;
+}
+
+footer {
+    width: 1440px;
+    height: 207px;
+    background-color: #419488;
+    position: baseline;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+    display: grid;
+}
+
+footer #logo-footer {
+    position: absolute;
+    /* left: 8.89%;
+    right: 84.27%;
+    top: 25.6%;
+    bottom: 25.4%; */
+}
+
+footer #lista-footer {
+    position: absolute;
+    left: 43.26%;
+    right: 51.81%;
+    top: 25.6%;
+    bottom: 34.3%;
+}
+
+footer #buttons-footer {
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
 }
